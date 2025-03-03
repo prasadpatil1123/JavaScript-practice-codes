@@ -27,9 +27,20 @@ let isLog = ""
 // "Kashi" => true
 
 // let randomNum = 45
-// let randomNum = ""
+let randomNum = ""
 
 
 let result = String(randomNum)
-console.log(result)
-console.log(typeof result)
+// console.log(result)
+// console.log(typeof result)
+
+// Operations
+
+let value  = 4
+let negValue = -value
+// console.log(negValue)
+
+let str1 = "Hey"
+let str2 = " Good Morning !"
+let str3 = str1 + str2
+console.log(str3)
