@@ -15,3 +15,21 @@ let myDate = new Date();
 // console.log(myCreatedDate);
 // let myCreatedDate = new Date("2023-05-14")
 // console.log(myCreatedDate.toLocaleString());
+
+// let myTimeStamp = Date.name()
+// console.log(myTimeStamp);
+
+let myTimeStamp1 = Date.now()
+// console.log(myTimeStamp1);
+// console.log(myTimeStamp1.toLocaleString());
+// console.log( Date.now()/1000);
+// console.log( Math.floor(Date.now()/1000));
+
+let newDate = new Date()
+console.log(newDate);
+console.log(newDate.getDate());
+console.log(newDate.getDay());
+console.log(newDate.getFullYear());
+console.log(newDate.getHours());
+console.log(newDate.getMonth()+1);
+
