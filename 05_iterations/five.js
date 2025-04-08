@@ -36,5 +36,6 @@ const myCode = [
 
 myCode.forEach((item) => {
     console.log(item.name);
+    console.log(item.type);
 }
 )
