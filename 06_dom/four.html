@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Code with Coffee</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    function addLang(langName) {
+        const li = document.createElement('li');
+        li.innerHTML = `${langName}`
+        document.querySelector('.language').appendChild(li)
+    }
+    addLang("Python")
+    addLang("Java")
+
+    function addOptiLang(newlang) {
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(newlang))
+        document.querySelector('.language').appendChild(li)
+    }
+    addOptiLang("GoLang")
+    addOptiLang("TypeScript")
+    addOptiLang("HTML")
+
+    // edit
+    const secondLang = document.querySelector("li:nth-child(2)")
+    console.log(secondLang);
+    // secondLang.innerHTML="Mojo"
+
+    const newli = document.createElement('li')
+    newli.textContent="mojo"
+    secondLang.replaceWith(newli)
+
+    //edit
+    const firstlang = document.querySelector("li:first-child")
+    firstlang.outerHTML = '<li>Type Script</li>'
+
+    //remove
+    const lastlang = document.querySelector("li:last-child")
+    lastlang.remove()
+
+</script>
+</html>
