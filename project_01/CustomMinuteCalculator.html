@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculate Total Minutes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Add Title Section -->
+    <div id="title-input-container">
+      <input type="text" id="title-input" placeholder="Enter title here" />
+      <button onclick="addTitle()">Add Title</button>
+    </div>
+    <div id="title-display"></div>
+
+    <h1>Enter Minutes</h1>
+    <div id="input-container">
+      <input type="number" id="minutes-input" placeholder="Enter minutes" />
+      <button onclick="addMinute()">Add</button>
+    </div>
+    <h2>Entered Minutes:</h2>
+    <ul id="minutes-list"></ul>
+    <button onclick="calculateAndDisplay()">Calculate Total Minutes</button>
+    <h2>Total Minutes:</h2>
+    <p id="total-minutes">0 minutes</p>
+
+    <button onclick="calculateAndDisplayHours()">Calculate Total Hours</button>
+    <h2>Total Hours:</h2>
+    <p id="total-hours">0 Hours</p>
+    <!-- 
+    <h1>Enter Minutes</h1>
+    <button onclick="addTitle('This is a new title')">Add Title</button>
+
+    <h1>Enter Minutes</h1> -->
+
+    <!-- Add Title Section -->
+    <!-- <div id="title-input-container">
+      <input type="text" id="title-input" placeholder="Enter title here" />
+      <button onclick="addTitle()">Add Title</button>
+    </div>
+    <div id="title-display"></div> -->
+
+    <script src="logic.js"></script>
+  </body>
+</html>
